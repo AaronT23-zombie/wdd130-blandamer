@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Picture Gallery - Web Fundamentals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <nav>
+            <a href="#" class="active-page">Home</a>
+            <a href="#">City Views</a>
+            <a href="#">Nature</a>
+        </nav>
+        <h1>My Picture Gallery</h1>
+        <div class="intro">
+            <p>Welcome to my website! This is a place where I can share my favorite pictures. 
+            Each page has empty spots where I can add photos later.</p>
+        </div>
+        <h2>My Favorite Photos</h2>
+        <div class="picture-grid">
+            <div class="picture-card">
+                <div class="image-place">
+                    <svg viewBox="0 0 24 24" width="60" height="60">
+                        <rect x="2" y="5" width="20" height="15" rx="2" fill="#6c757d"/>
+                        <circle cx="12" cy="12" r="4" fill="#ffffff"/>
+                        <rect x="18" y="8" width="2" height="2" fill="#ffffff"/>
+                    </svg>
+                </div>
+                <div class="picture-label">
+                    Sunset Beach
+                    <span>click to add photo</span>
+                </div>
+            </div>
+            <div class="picture-card">
+                <div class="image-place">
+                    <svg viewBox="0 0 24 24" width="60" height="60">
+                        <rect x="2" y="5" width="20" height="15" rx="2" fill="#6c757d"/>
+                        <circle cx="12" cy="12" r="4" fill="#ffffff"/>
+                        <rect x="18" y="8" width="2" height="2" fill="#ffffff"/>
+                    </svg>
+                </div>
+                <div class="picture-label">
+                    Mountain Hike
+                    <span>click to add photo</span>
+                </div>
+            </div>
+            <div class="picture-card">
+                <div class="image-place">
+                    <svg viewBox="0 0 24 24" width="60" height="60">
+                        <rect x="2" y="5" width="20" height="15" rx="2" fill="#6c757d"/>
+                        <circle cx="12" cy="12" r="4" fill="#ffffff"/>
+                        <rect x="18" y="8" width="2" height="2" fill="#ffffff"/>
+                    </svg>
+                </div>
+                <div class="picture-label">
+                    City Night
+                    <span>click to add photo</span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="note">
+            <p><strong>How to add pictures:</strong> The gray boxes above are where your photos will go. 
+            To add a real picture, replace the SVG code inside each "image-place" div with an img tag like this:</p>
+            <p><code>&lt;img src="your-photo.jpg" alt="photo description" width="100%"&gt;</code></p>
+        </div>
+        <div class="fake-upload">
+            ⬆️ Upload Picture (demo)
+        </div>
+
+        
+        <h1>City Views Gallery</h1>
+        
+        <div class="intro">
+            <p>My collection of city photos from around the world. Each spot is ready for a city picture.</p>
+        </div>
+        
+        <h2>Urban Moments</h2>
+        
+        <div class="picture-grid">
+            <div class="picture-card">
+                <div class="image-place">
+                    <svg viewBox="0 0 24 24" width="60" height="60">
+                        <rect x="2" y="5" width="20" height="15" rx="2" fill="#6c757d"/>
+                        <circle cx="12" cy="12" r="4" fill="#ffffff"/>
+                        <rect x="18" y="8" width="2" height="2" fill="#ffffff"/>
+                    </svg>
+                </div>
+                <div class="picture-label">
+                    Downtown Skyline
+                    <span>add city photo</span>
+                </div>
+            </div>
+            <div class="picture-card">
+                <div class="image-place">
+                    <svg viewBox="0 0 24 24" width="60" height="60">
+                        <rect x="2" y="5" width="20" height="15" rx="2" fill="#6c757d"/>
+                        <circle cx="12" cy="12" r="4" fill="#ffffff"/>
+                        <rect x="18" y="8" width="2" height="2" fill="#ffffff"/>
+                    </svg>
+                </div>
+                <div class="picture-label">
+                    Busy Street
+                    <span>add city photo</span>
+                </div>
+            </div>
+            <div class="picture-card">
+                <div class="image-place">
+                    <svg viewBox="0 0 24 24" width="60" height="60">
+                        <rect x="2" y="5" width="20" height="15" rx="2" fill="#6c757d"/>
+                        <circle cx="12" cy="12" r="4" fill="#ffffff"/>
+                        <rect x="18" y="8" width="2" height="2" fill="#ffffff"/>
+                    </svg>
+                </div>
+                <div class="picture-label">
+                    Night Lights
+                    <span>add city photo</span>
+                </div>
+            </div>
+            <div class="picture-card">
+                <div class="image-place">
+                    <svg viewBox="0 0 24 24" width="60" height="60">
+                        <rect x="2" y="5" width="20" height="15" rx="2" fill="#6c757d"/>
+                        <circle cx="12" cy="12" r="4" fill="#ffffff"/>
+                        <rect x="18" y="8" width="2" height="2" fill="#ffffff"/>
+                    </svg>
+                </div>
+                <div class="picture-label">
+                    Subway Station
+                    <span>add city photo</span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="note">
+            <p><strong>4 spots for city photos</strong> - Replace each gray box with your own city images.</p>
+        </div>
+        <h1>Nature Escape Gallery</h1>
+        
+        <div class="intro">
+            <p>Beautiful nature scenes from my adventures. Ready for forest, mountain, and ocean photos.</p>
+        </div>
+        
+        <h2>Outdoor Adventures</h2>
+        
+        <div class="picture-grid">
+            <div class="picture-card">
+                <div class="image-place">
+                    <svg viewBox="0 0 24 24" width="60" height="60">
+                        <rect x="2" y="5" width="20" height="15" rx="2" fill="#6c757d"/>
+                        <circle cx="12" cy="12" r="4" fill="#ffffff"/>
+                        <rect x="18" y="8" width="2" height="2" fill="#ffffff"/>
+                    </svg>
+                </div>
+                <div class="picture-label">
+                    Forest Trail
+                    <span>add nature photo</span>
+                </div>
+            </div>
+            <div class="picture-card">
+                <div class="image-place">
+                    <svg viewBox="0 0 24 24" width="60" height="60">
+                        <rect x="2" y="5" width="20" height="15" rx="2" fill="#6c757d"/>
+                        <circle cx="12" cy="12" r="4" fill="#ffffff"/>
+                        <rect x="18" y="8" width="2" height="2" fill="#ffffff"/>
+                    </svg>
+                </div>
+                <div class="picture-label">
+                    Mountain Lake
+                    <span>add nature photo</span>
+                </div>
+            </div>
+            <div class="picture-card">
+                <div class="image-place">
+                    <svg viewBox="0 0 24 24" width="60" height="60">
+                        <rect x="2" y="5" width="20" height="15" rx="2" fill="#6c757d"/>
+                        <circle cx="12" cy="12" r="4" fill="#ffffff"/>
+                        <rect x="18" y="8" width="2" height="2" fill="#ffffff"/>
+                    </svg>
+                </div>
+                <div class="picture-label">
+                    Waterfall
+                    <span>add nature photo</span>
+                </div>
+            </div>
+            <div class="picture-card">
+                <div class="image-place">
+                    <svg viewBox="0 0 24 24" width="60" height="60">
+                        <rect x="2" y="5" width="20" height="15" rx="2" fill="#6c757d"/>
+                        <circle cx="12" cy="12" r="4" fill="#ffffff"/>
+                        <rect x="18" y="8" width="2" height="2" fill="#ffffff"/>
+                    </svg>
+                </div>
+                <div class="picture-label">
+                    Wild Flowers
+                    <span>add nature photo</span>
+                </div>
+            </div>
+            <div class="picture-card">
+                <div class="image-place">
+                    <svg viewBox="0 0 24 24" width="60" height="60">
+                        <rect x="2" y="5" width="20" height="15" rx="2" fill="#6c757d"/>
+                        <circle cx="12" cy="12" r="4" fill="#ffffff"/>
+                        <rect x="18" y="8" width="2" height="2" fill="#ffffff"/>
+                    </svg>
+                </div>
+                <div class="picture-label">
+                    Ocean Sunset
+                    <span>add nature photo</span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="note">
+            <p><strong>5 spots for nature photos</strong> - Add your favorite outdoor pictures here.</p>
+        </div>
+        <footer>
+            <p>Web Fundamentals Class Project - Simple Picture Gallery Website</p>
+            <p>Created with HTML and CSS</p>
+        </footer>
+        
+    </div> 
+    <script>
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault(); 
+                navLinks.forEach(l => l.classList.remove('active-page'));
+                this.classList.add('active-page');
+                const pageName = this.textContent;
+                alert('In a real website, this would take you to the ' + pageName + ' page.\n\nFor this class demo, all pages are shown on one page so you can see the HTML structure.');
+            });
+        });
+    </script>
+</body>
+</html>
